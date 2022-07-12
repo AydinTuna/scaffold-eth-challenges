@@ -43,7 +43,7 @@ describe("🚩 Challenge 0: 🎟 Simple NFT Example 🤓", function () {
         myContract = await YourCollectible.deploy();
       });
     }
-
+    
     describe("mintItem()", function () {
       it("Should be able to mint an NFT", async function () {
         const [owner] = await ethers.getSigners();
